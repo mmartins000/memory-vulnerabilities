@@ -1,2 +1,2 @@
 # memory-vulnerabilities
-C source code for the lecture on Memory Vulnerabilities
+C source code and Windows 7 compiled executables for the lecture on Memory Vulnerabilities
