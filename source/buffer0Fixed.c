@@ -8,8 +8,8 @@ int main(int argc, char *argv[]) {
 	printf("\n[BEFORE] Buffer2 contains: %s\n",buffer2);
 	printf("[BEFORE] Buffer1 contains: %s\n\n",buffer1);
 
-	if (strlen(argv[1]) <= strlen(buffer2)-1) {
-		strncpy(buffer2, argv[1], strlen(argv[1] - 1));
+	if (strlen(argv[1]) <= strlen(buffer2)) {
+		strncpy(buffer2, argv[1], strlen(buffer2));
 		//strcpy(buffer2, argv[1]);
 	}
 	else {
